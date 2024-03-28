@@ -1,0 +1,347 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 0px;
+}
+
+.caja{
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 83px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #7F1E57;
+    text-decoration: underline;
+}
+
+
+
+footer{
+    text-align: center;
+    background: #7F1E57;
+    padding: 20px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+
+/* CSS Index */
+
+.principal{
+    padding: 3em 0;
+    background: white;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    margin: 0 0 1em;
+    color: #7F1E57
+}
+
+.secundario{
+    padding: 3em 0;
+    background: white;
+    width: 940px;
+    margin: 1% auto;
+}
+
+.secundario a{
+    color: #7F1E57;
+}
+
+.titulo-secundario{
+    margin: 0 0 2em;
+}
+
+
+.ipn{
+    width: 150px;
+    float: left;
+    margin: 0 0 0 0;
+}
+
+.esca{
+    width: 150px;
+    float: right;
+    margin: 0 0 0 0;
+}
+
+
+/* Infografia */
+
+table{
+    border: 1px solid #BBBBBB;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+td, th{
+    border: 1px solid #BBBBBB;
+}
+
+.large-guinda{
+    border: 1px solid #7F1E57;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.large-guinda th{
+    border: 1px solid #7F1E57;
+}
+
+.large-guinda td{
+    border: 1px solid #7F1E57;
+}
+
+.large-blanco{
+    border: 1px solid #eeeeee;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.large-blanco th{
+    border: 1px solid #eeeeee;
+}
+
+.large-blanco td{
+    border: 1px solid #eeeeee;
+}
+
+.titulos-infografia{
+    text-align: center;
+}
+
+.titulos-infografia-blanco{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.titulos-infografia-guinda{
+    text-align: right;
+    margin-right: 15px;
+}
+
+.megin-texto-blanco{
+    margin-left: 10px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.tabla-texto-blanco{
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 0;
+    margin-bottom: 0%;
+    text-align: justify;
+}
+
+.texto-centrado-blanco{
+    text-align: center;
+    color: white;
+}
+
+.texto-justificado-negro{
+    text-align: justify;
+    margin-left: 10px;
+    margin-left: 10px;
+    color: black;
+}
+
+.texto-centrado-negro{
+    text-align: center;
+    color: black;
+}
+
+.texto-justificado-blanco{
+    text-align: justify;
+    margin-left: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.primero{
+    padding: 3em 0;
+    background: #7F1E57;
+    width: 940px;
+    margin: 0 auto;
+    border-top: 5px solid #000000;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+.examen-intermedio{
+    text-align: center;
+    color: white;
+}
+
+.segundo{
+    padding: 3em 0;
+    background: #eeeeee;
+    width: 940px;
+    margin: 0 auto;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+.negocios{
+    float: right;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.tercero{
+    padding: 3em 0;
+    background: #7F1E57;
+    color: white;
+    width: 940px;
+    margin: 0 auto;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+.indicadoreseconomicos{
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.cuarto{
+    padding: 3em 0;
+    background: #eeeeee;
+    width: 940px;
+    margin: 0 auto;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+.ecnomiacircular{
+    float: right;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.estadosfinancieros{
+    float: right;
+}
+
+.quinto{
+    padding: 3em 0;
+    background: #7F1E57;
+    width: 940px;
+    margin: 0 auto;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+.micro{
+    box-align: center;
+    background-color: white;
+}
+
+.macro{
+    box-align: center;
+    background-color: white;
+}
+
+.sexto{
+    padding: 3em 0;
+    background: #eeeeee;
+    width: 940px;
+    margin: 0 auto;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+.oferta{
+    background-color: white;
+}
+
+.demanda{
+    background-color: white;
+}
+
+.septimo{
+    padding: 3em 0;
+    background: #7F1E57;
+    color: white;
+    width: 940px;
+    margin: 0 auto;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+.politicaeconomica{
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.octavo{
+    padding: 3em 0;
+    background: #eeeeee;
+    width: 940px;
+    margin: 0 auto;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+.contabilidad{
+    float: right;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.noveno{
+    padding: 3em 0;
+    background: #7F1E57;
+    width: 940px;
+    margin: 0 auto;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+.decimo{
+    padding: 3em 0;
+    background: #eeeeee;
+    width: 940px;
+    margin: 0 auto;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+
+.once{
+    padding: 3em 0;
+    background: white;
+    width: 940px;
+    margin: 0 auto;
+}
